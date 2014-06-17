@@ -15,7 +15,7 @@ var server = http.createServer(function (req, res) {
     function next(from, to) {
         fs.readFile(from, function (err, content) {
             if (err) {
-                eror(err);
+                error(err);
             } else {
                 fs.writeFile(to, content, function (err) {
                     if (err) {
