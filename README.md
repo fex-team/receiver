@@ -8,6 +8,7 @@ FIS receiver on node.js
 ```bash
 $ git clone https://github.com/fex-team/receiver.git
 $ cd receiver
+$ npm install
 $ node server.js # default port 8999, use `node server.js <port>` change port
 ```
 
