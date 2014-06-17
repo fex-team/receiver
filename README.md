@@ -1,7 +1,7 @@
 receiver
 ========
 
-FIS receiver on nodejs
+FIS receiver on node.js
 
 ### use
 
