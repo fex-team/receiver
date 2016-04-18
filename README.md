@@ -32,8 +32,9 @@ fis3 中配置方式。
 ```js
 fis.match('*', {
   deploy: fis.plugin('http-push', {
-    receiver: 'http://cq.01.p.p.baidu.com:8888/receiver.php',
-    to: '/home/work/htdocs' // 注意这个是指的是测试机器的路径，而非本地机器
+    receiver: 'http://<host>:8999/receiver',
+    //远端目录
+    to: '/home/fis/www/'
   })
 })
 ```
